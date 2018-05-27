@@ -1,0 +1,20 @@
+@Neeraj Fernandes
+@INFS 519
+@Fall 2016
+
+---------------------------------------------------------------------------
+     Input              Time T(n) in ms    T(2n)/T(n )Ratio with previous
+---------------------------------------------------------------------------
+1.  1000000 	        509.023165	           -
+2.  2000000	        1007.441825               1.97
+3.  4000000	        2021.437021               2.00
+4.  8000000		4061.472507               2.00
+5.  16000000		8369.401472               2.06
+6.  32000000            17317.391368              2.07
+---------------------------------------------------------------------------
+
+As we double the input, the time required also gets doubled.
+Example n1=2000000 and n2=4000000
+the above inputs results in T(n1)=1007.441825 T(n2)=2021.437021
+This implies that ratio of T(2n)/T(n) is approximately 2.
+Thus the asymptotic running time is somewhere between O(n) and O(nlogn).

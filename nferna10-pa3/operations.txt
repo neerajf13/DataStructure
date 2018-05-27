@@ -1,0 +1,20 @@
+enqueue andy
+enqueue mike
+enqueue bob
+size
+dequeue
+enqueue liz
+dequeue
+dequeue
+enqueue larry
+enqueue moe
+enqueue curly
+size
+dequeue
+dequeue
+dequeue
+dequeue
+enqueue alpha
+enqueue bravo
+enqueue charlie
+size
