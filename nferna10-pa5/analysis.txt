@@ -1,0 +1,16 @@
+ * @author Neeraj Fernandes
+ * INFS 519
+ * Fall 2016
+
+Empirical analysis:
+
+                   Input             BinaryHeap Time(ms)       OrderedArray Time(ms)
+                   100		    	1.697999		   1.690301
+                   1000			3.619237 		   4.800204
+                   10000		9.134693		   267.175661
+                   100000		56.775581		   25837.459554
+		   1000000		647.826148		   2690882.498595
+
+
+It is clear that the ordered array takes lesser time or approximately same time as the binary heap for small n.
+As the input size increases BinaryHeap follows nlogn and is much faster than the ordered array.  
